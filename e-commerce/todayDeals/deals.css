@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/orchidea-pro');
+
+                
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Orchidea Pro', sans-serif;
+                                                
+    
+}
+body{
+    background-color:green;
+}
+.nav-bar{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    position: fixed;
+    width: 100%;
+
+
+}
+.logo img{
+    width: 75px;
+    margin: 3px 10px 5px 0px;
+}
+.search{
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+.search input{
+    display: flex;
+    flex: 1;
+    padding: 5px 10px;
+    border: none;
+    border-color: black;
+    border-radius: 5px 0px 0px 5px;
+    margin: 2px 0px;
+}
+.search button{
+    padding: 10px 20px;
+    border-radius: 0px 7px 7px 0px;
+    background-color: rgb(13, 238, 170);
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+
+
+}
+.search button:hover{
+    background-color:blue;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.login a{
+    margin-left: 15px;
+}
+.login img{
+    width: 35px;
+    filter: invert(100%);
+}
+.hero-page img{
+    width: 100%;
+    padding-top: 7px;
+}
+.hero-page{
+    padding-top: 30px;
+}
+.foot{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.footer-links{
+    pad: 20px;
+}
+.footer-links h4{
+    margin-top: 0px;
+    padding: 15px;
+}
+.footer-links ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-links li{
+    margin-bottom: 15px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: wheat;
+}
+.rights h4{
+    text-align: center;
+    font-weight: 600;
+}
